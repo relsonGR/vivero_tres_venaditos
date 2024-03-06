@@ -1,0 +1,185 @@
+{
+    "plantas": [
+      {
+        "id": 1,
+        "nombre": "Cactus",
+        "precio": 10,
+        "descripcion": "Planta de interior fácil de cuidar"
+      },
+      {
+        "id": 2,
+        "nombre": "Orquídea",
+        "precio": 20,
+        "descripcion": "Flor exótica para interiores"
+      },
+      {
+        "id": 3,
+        "nombre": "Suculenta",
+        "precio": 15,
+        "descripcion": "Planta con hojas carnosas que retienen agua"
+      },
+      {
+        "id": 4,
+        "nombre": "Helecho",
+        "precio": 12,
+        "descripcion": "Planta ornamental de follaje verde"
+      },
+      {
+        "id": 5,
+        "nombre": "Lavanda",
+        "precio": 18,
+        "descripcion": "Planta aromática con flores moradas"
+      },
+      {
+        "id": 6,
+        "nombre": "Pothos",
+        "precio": 8,
+        "descripcion": "Planta de interior popular por su fácil cuidado"
+      },
+      {
+        "id": 7,
+        "nombre": "Ficus",
+        "precio": 25,
+        "descripcion": "Árbol de interior con hojas brillantes"
+      },
+      {
+        "id": 8,
+        "nombre": "Bambú",
+        "precio": 30,
+        "descripcion": "Planta ornamental de rápido crecimiento"
+      },
+      {
+        "id": 9,
+        "nombre": "Tomillo",
+        "precio": 7,
+        "descripcion": "Planta aromática utilizada en cocina"
+      },
+      {
+        "id": 10,
+        "nombre": "Rosa",
+        "precio": 22,
+        "descripcion": "Flor clásica de jardín con variedad de colores"
+      },
+      {
+        "id": 11,
+        "nombre": "Pino",
+        "precio": 40,
+        "descripcion": "Árbol perenne común en climas fríos"
+      },
+      {
+        "id": 12,
+        "nombre": "Palmera",
+        "precio": 50,
+        "descripcion": "Árbol tropical con hojas en forma de abanico"
+      },
+      {
+        "id": 13,
+        "nombre": "Albahaca",
+        "precio": 9,
+        "descripcion": "Hierba aromática utilizada en cocina"
+      },
+      {
+        "id": 14,
+        "nombre": "Geranio",
+        "precio": 14,
+        "descripcion": "Planta de floración abundante en diferentes colores"
+      },
+      {
+        "id": 15,
+        "nombre": "Hiedra",
+        "precio": 11,
+        "descripcion": "Planta trepadora de interior o exterior"
+      },
+      {
+        "id": 16,
+        "nombre": "Tulipán",
+        "precio": 16,
+        "descripcion": "Flor bulbosa popular en jardinería"
+      },
+      {
+        "id": 17,
+        "nombre": "Crisantemo",
+        "precio": 13,
+        "descripcion": "Planta de floración en otoño"
+      },
+      {
+        "id": 18,
+        "nombre": "Aloe Vera",
+        "precio": 17,
+        "descripcion": "Planta suculenta con propiedades medicinales"
+      },
+      {
+        "id": 19,
+        "nombre": "Caléndula",
+        "precio": 19,
+        "descripcion": "Flor anual con pétalos naranjas o amarillos"
+      },
+      {
+        "id": 20,
+        "nombre": "Dalia",
+        "precio": 21,
+        "descripcion": "Planta perenne con flores grandes y variadas"
+      },
+      {
+        "id": 21,
+        "nombre": "Lirio",
+        "precio": 23,
+        "descripcion": "Flor ornamental de colores intensos"
+      },
+      {
+        "id": 22,
+        "nombre": "Begonia",
+        "precio": 24,
+        "descripcion": "Planta de interior con flores vistosas"
+      },
+      {
+        "id": 23,
+        "nombre": "Papaya",
+        "precio": 27,
+        "descripcion": "Árbol tropical con frutos dulces"
+      },
+      {
+        "id": 24,
+        "nombre": "Fresa",
+        "precio": 28,
+        "descripcion": "Planta rastrera con frutos rojos y dulces"
+      },
+      {
+        "id": 25,
+        "nombre": "Eucalipto",
+        "precio": 29,
+        "descripcion": "Árbol con hojas aromáticas utilizadas en remedios"
+      },
+      {
+        "id": 26,
+        "nombre": "Girasol",
+        "precio": 31,
+        "descripcion": "Planta con grandes flores amarillas"
+      },
+      {
+        "id": 27,
+        "nombre": "Hibisco",
+        "precio": 32,
+        "descripcion": "Planta ornamental con flores grandes y vistosas"
+      },
+      {
+        "id": 28,
+        "nombre": "Zamioculca",
+        "precio": 33,
+        "descripcion": "Planta de interior resistente y fácil de cuidar"
+      },
+      {
+        "id": 29,
+        "nombre": "Monstera",
+        "precio": 35,
+        "descripcion": "Planta de interior con hojas grandes y perforadas"
+      },
+      {
+        "id": 30,
+        "nombre": "Bromelia",
+        "precio": 36,
+        "descripcion": "Planta tropical con flores de colores vivos"
+      }
+    ]
+  }
+  
