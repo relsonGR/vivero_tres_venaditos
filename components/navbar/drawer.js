@@ -17,7 +17,7 @@ import Typography from '@mui/material/Typography';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Container from '@mui/material/Container';
-import { IconButton } from '@mui/material';
+import { Avatar, IconButton } from '@mui/material';
 import { Assignment, ContactPage, Devices, Group, Info, Menu, Nature, NaturePeopleRounded, NaturePeopleSharp, SearchOutlined } from '@mui/icons-material';
 import { useRouter } from "next/router";
 import PeopleIcon from "@mui/icons-material/People";
@@ -152,25 +152,40 @@ export default function TemporaryDrawer({props,children}) {
       <React.Fragment>
       <CssBaseline />
       <ElevationScroll {...props}>
-        <AppBar>
-          <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
-          <Menu />
-        
-      </IconButton>
-          <Typography variant="h6" component="div">
-              LOS TRES VENADITOS
-            </Typography>
-          
-          </Toolbar>
-        </AppBar>
+      <AppBar sx={{ backgroundColor: '#169447' }}>
+  <Toolbar>
+    <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
+      <Menu />
+    </IconButton>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <img src="../img/logo/logo.png" alt="Logo" style={{ maxHeight: 40, borderRadius: '15%', boxShadow: '0px 0px 0px rgba(0, 0, 0, 0)', marginRight: '10px' }} />  
+
+      <Typography variant="h6" component="div" sx={{ 
+  //fontFamily: 'Arial, sans-serif', // Cambiar la fuente
+  fontWeight: 'bold', // Ajustar el grosor del texto
+  color: '#ffffff', // Cambiar el color del texto
+  letterSpacing: '2px', // Ajustar el espacio entre letras
+  textAlign: 'center', // Centrar el texto
+  //textDecoration: 'underline', // Añadir subrayado
+  // Otros estilos personalizados...
+}}>
+  Vivero Tres Venaditos
+</Typography>
+
+
+    </div>
+  </Toolbar>
+</AppBar>
+
       </ElevationScroll>
       <Toolbar />
       <Container>
         
       
        <Box sx={{ my: 2 }}>
-       {children}
+       <div style={{ backgroundColor: '#f0f0f0', minHeight: '100vh' }}>
+      {children}
+    </div>
             </Box>
       </Container>
     </React.Fragment>

@@ -3,6 +3,8 @@
 // Componente que consume los datos del archivo JSON
 import React, { useState, useEffect } from 'react';
 import datos from './../../pages/api/products/index.json';
+import ProductCards from './productsCard';
+import { Container, Grid } from '@mui/material';
 
 function MiComponente() {
   const [productos, setProductos] = useState([]);
@@ -13,13 +15,14 @@ function MiComponente() {
 
   return (
     <div>
-      {productos.map(producto => (
-        <div key={producto.id}>
-          <h2>{producto.nombre}</h2>
-          <p>Precio: {producto.precio}</p>
-          <p>Descripción: {producto.descripcion}</p>
-        </div>
-      ))}
+
+      <Grid container spacing={2}>
+        {productos.map((producto) => (
+          <Grid  item xs={12} sm={6} md={4} key={producto.id}>
+            <ProductCards products={producto} />
+          </Grid>
+        ))}
+      </Grid>
     </div>
   );
 }
